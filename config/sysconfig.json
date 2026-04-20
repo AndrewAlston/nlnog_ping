@@ -1,0 +1,18 @@
+{
+  "nlnog_ring": {
+    "api_link": "https://api.ring.nlnog.net/1.0/nodes/active/protocol/ipv4",
+    "max_nodes": 1000,
+    "num_pings": 10,
+    "poll_interval": 180,
+    "public_key": "public key here",
+    "private_key": "private key here",
+    "username": "username here",
+    "target": "target here",
+    "database": {
+      "host": "127.0.0.1",
+      "port": 8086,
+      "database": "latency_measurements"
+    }
+  }
+}
+
